@@ -1,26 +1,27 @@
-# f-Avax
+## 1st Project For Avalanche
+
+ ## I have used one public function to implement all three function to show errors.
+
 ## Description
 
-In Solidity, there are three distinct statements—require(), assert(), and revert()—that are used to manage errors that can either halt the execution of the code or allow it to proceed, depending on the specified conditions.
+Solidity uses state-reverting exceptions to handle errors. 
+Such an exception undoes all changes made to the state in the current call and all its sub-calls and reports the error to the caller. 
+Errors can occur at compile time or runtime. Methods used for error handling in solidity are require, assert, revert.
 
-## Getting Started
+## Let's Started
 
-Copy the code and use online remix IDE.
+* The simplest way to compile and deploy a solidity contract is using online remix IDE.
 
 ### Executing program
 
-* Go to the online remix IDE.
-* Paste the contract form the repository.
-* Now, deploy and interact with the contract.
-
-## Help
-
-Refer the modules if stuck anywhere.
+* Go to the online remix IDE
+* Create a new file and add the project(first.sol)
+* Now, compile and deploy the contract
+* Apply all values according to given condition 
+ 
 
 ## Authors
-
-Akash Kadu
+Akash kadu
 
 ## License
-
-This project is licensed under the MIT License.
+This project is licensed under the [MIT] License - see the LICENSE.md file for details
